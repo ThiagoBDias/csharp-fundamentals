@@ -20,6 +20,11 @@ namespace AULA2
             int idade = int.Parse(dados[1]);
             double altura = double.Parse(dados[2]);
             Console.WriteLine("Você digitou: " + ultimoNome + ", " + idade + " anos, " + altura + "m");
+
+
+            int a,b,c ;
+            
+        
         }
     }
 }
