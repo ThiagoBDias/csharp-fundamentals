@@ -6,9 +6,13 @@ public class Matematica
     double  x = 3.0;
     double  y = 4.0;
     double z = -5.0;
-    double a,b,c;
+    double A,B,C;
 
-    a = Math.sqrt(x);
-    b = Math.sqrt(y);
-    c = Math.sqrt(25.0);
+    A = Math.sqrt(x);
+    B = Math.sqrt(y);
+    C = Math.sqrt(25.0);
+    
+    console.WriteLine("Raiz quadrada de " + x + " = " + A);
+    console.WriteLine("Raiz quadrada de " + y + " = " + B);
+    console.WriteLine("Raiz quadrada de 25.0 = " + c);
 }
