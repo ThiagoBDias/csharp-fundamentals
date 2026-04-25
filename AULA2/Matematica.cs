@@ -1,6 +1,7 @@
 using System;
 using System.Globalization;
 
+
 public class Matematica
 {
     double  x = 3.0;
@@ -15,4 +16,6 @@ public class Matematica
     console.WriteLine("Raiz quadrada de " + x + " = " + A);
     console.WriteLine("Raiz quadrada de " + y + " = " + B);
     console.WriteLine("Raiz quadrada de 25.0 = " + c);
+
+    return Matematica( );
 }
