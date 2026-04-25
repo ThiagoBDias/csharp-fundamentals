@@ -2,7 +2,8 @@ using System;
 using System.Globalization;
 
 
-public class Matematica
+void class Matematica
+
 {
     double  x = 3.0;
     double  y = 4.0;
@@ -18,4 +19,12 @@ public class Matematica
     console.WriteLine("Raiz quadrada de 25.0 = " + c);
 
     return Matematica( );
+}
+
+namespace AULA2
+{
+    class Matematica
+    {
+        void
+    }
 }
