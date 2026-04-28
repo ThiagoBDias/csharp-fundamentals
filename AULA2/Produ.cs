@@ -3,15 +3,15 @@ using System;
 namespace AULA2
 {
     class Produ    
-    
+
     {
         static void Main(string[] args)
         {   
-            int      A, B, SOMA; 
+            int      A, B, PROD; 
             A = int.Parse(Console.ReadLine()); 
             B = int.Parse(Console.ReadLine());
-            SOMA = A + B;  
-            Console.WriteLine("SOMA = " + SOMA);
+            PROD = A * B;  
+            Console.WriteLine("PROD = " + PROD);
             
         }
     }
