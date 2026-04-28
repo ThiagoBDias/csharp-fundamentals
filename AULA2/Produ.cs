@@ -1,18 +1,14 @@
 using System;
 
-namespace AULA2
+class URI 
 {
-    class Produ    
-
-    {
-        static void Main(string[] args)
-        {   
-            int      A, B, PROD; 
-            A = int.Parse(Console.ReadLine()); 
-            B = int.Parse(Console.ReadLine());
-            PROD = A * B;  
-            Console.WriteLine("PROD = " + PROD);
-            
-        }
+    static void Main(string[] args) 
+    {   
+        int A = int.Parse(Console.ReadLine()); 
+        int B = int.Parse(Console.ReadLine());
+        
+        int PROD = A * B;  
+        
+        Console.WriteLine("PROD = " + PROD);
     }
 }
