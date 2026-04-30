@@ -6,9 +6,8 @@ class URI {
         string[] respostas = Console.ReadLine().Split(' ');
 
         int acertos = 0;
-        for (int i = 0; i < T; i++)   {
-            string resposta = respostas[i];
-            if (resposta == "1" || resposta == "4" || resposta == "78") {
+        foreach (string r in respostas) {
+            if (int.Parse(r) == T) {
                 acertos++;
             }
         }
