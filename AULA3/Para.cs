@@ -18,8 +18,7 @@ namespace AULA3
                soma += x;
                
             }
-            
-        
+            Console.WriteLine(soma);
         }
     }
 }
