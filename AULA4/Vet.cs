@@ -26,10 +26,7 @@ namespace AULA4
             }     
             for (int i = 0; i <n; i++)
             {
-                if(vet[i] < 0)
-                {
-                   Console.WriteLine(vet[i]);
-                }
+                Console.WriteLine(vet[i]);
             }
             
         
