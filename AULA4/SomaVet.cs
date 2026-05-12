@@ -15,9 +15,13 @@ namespace AULA4
             double soma = 0;
             for (int i = 0; i < n; i++)
             {
+                Console.Write(vet[i]+" ");
                 soma += vet[i];
             }
-            Console.WriteLine("Soma dos valores: " + soma);
+            double media = soma / n;
+            Console.WriteLine("\nSoma: " + soma);
+           
+            
         }
     }
 }
